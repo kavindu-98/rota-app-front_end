@@ -5,6 +5,7 @@ import {
   StatusBar,
   KeyboardAvoidingView,
 } from 'react-native';
+
 import React, {useEffect, useState} from 'react';
 import {Input, Button} from 'react-native-elements';
 import axios from 'axios';
@@ -62,7 +63,10 @@ const LoginComponent = ({navigation}) => {
         />
       </View>
 
-      <Button title="Login" onPress={register} />
+      <Button 
+        
+      
+      title="Login" onPress={register} />
     </KeyboardAvoidingView>
   );
 };
